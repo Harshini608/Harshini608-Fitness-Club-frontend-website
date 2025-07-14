@@ -1,0 +1,439 @@
+*{
+    margin:0;
+    padding:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}html{
+scroll-behavior: smooth; 
+} 
+#navbar{
+
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+#nav-first{
+    font-size: 2.5rem;
+}
+#nav-first:hover{
+transform: scale(1.04);
+}
+.Aqua-color{
+    color: aquamarine;
+}
+#nav-second{
+    display:flex;
+    align-items: center; 
+
+}
+.nav-second-anker{
+    margin-left: 40px;
+    text-decoration: none;
+}
+.nav-second-anker:hover{
+    color: aquamarine;
+    transform: scale(1.04);
+  
+    
+}
+#button{
+    color: aquamarine;
+    padding:5px 20px 5px 20px ;
+    border-radius: 8px;
+    border-color: aquamarine;
+
+}
+#middle{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#middle-content {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.multi{
+    display: flex;
+}
+.multiline{
+    color: aquamarine;
+    font-size: 40px;
+
+}
+.typed-cursor {
+      font-weight: normal;
+      font-size: 50px; 
+      animation: blink 0.7s step-end infinite;
+}
+#middle-content p{
+    font-size:50px;
+    font-weight: bold;
+    
+}
+#burn-fat{
+    font-size:20px;
+    font-weight: bold;
+    color: aquamarine;
+
+}
+#middle button{
+    color: black;
+    background-color: aquamarine;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border-color: aquamarine;
+    margin-top: 1rem;
+}
+#middle-fit-image{
+    height: 800px;
+    width: 500px;
+    background-image: url("Fitness.jpg");
+    background-size: cover;
+}
+/* main */
+/* services */
+#service-head{
+    text-align: center;
+    font-size: 50px;
+}
+#services{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+}
+#services p{
+    font-size: 1.5rem;
+}
+.box{
+    height: 400px;
+    width: 30%;
+    border-radius: 20px;
+    border: 2px solid red;
+    padding: 20px;
+    margin-top: 15px;
+    
+}
+.box:hover{
+    transform: scale(1.01);;
+}
+
+.one{
+    background-image: url("physicalfitness.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    height: 300px;
+    margin-top:16px;
+    margin-bottom:30px;
+  
+
+}
+.two{
+    background-image: url("weightgain.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    height: 300px;
+    margin-top:16px;
+    margin-bottom:30px;
+
+}
+.three{
+    background-image: url("strengthtraining.webp");
+    background-size: cover;
+    border-radius: 12px;
+    height: 300px;
+    margin-top:16px;
+    margin-bottom:30px;
+}
+.four{
+    background-image: url("fatlose.webp");
+    background-size: cover;
+    border-radius: 12px;
+    height: 300px;
+    margin-top:16px;
+    margin-bottom:30px;
+}
+.five{
+    background-image: url("weightlifting.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    height: 300px;
+    margin-top:16px;
+    margin-bottom:30px;
+}
+.six{
+    background-image: url("running.jpg");
+    background-size: cover;
+    border-radius: 12px;
+    height: 300px;
+    margin-top:16px;
+    margin-bottom:30px;
+
+}
+
+/* about us */
+#choose-page{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#choose-img:hover{
+    transform: scale(1.01);
+}
+#choose-img{
+    height:350px;
+    width: 600px;
+    border:2px solid white;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+#choose-head{
+    font-size: 50px;
+}
+#choose-content{
+    height: 350px;
+    width: 600px;
+   
+}
+#choose-matter{
+    line-height: 2.4;
+    margin-bottom: 1.5px;
+    font-style: normal;
+}
+/* pricing */
+#price-head{
+    text-align: center;
+    font-size: 50px;
+    margin: 80px 0px 40px 0px;
+}
+#price-plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price{
+    height: 350px;
+    width: 275px;
+    border:2px solid aquamarine;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+.price:hover{
+    transform: scale(1.04);
+}
+.price-content{
+    margin: 30px;
+    line-height: 1.5;
+}
+.price-keys{
+    font-size: 2rem;
+
+}
+.price-value{
+    font-size: 1.6rem;
+    color: aquamarine;
+
+}
+.join-now{
+    padding:5px 30px 5px 30px ;
+    border-radius: 8px;
+    border: 2px solid aquamarine;
+   
+}
+  
+  /* customer feedback */
+  #customer-head{
+    text-align: center;
+    font-size: 50px;
+    margin: 80px 0px 40px 0px;
+
+  }
+.review{
+    height: 450px;
+    width: 300px;
+    border:2px solid aquamarine;
+    border-radius: 10px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+}
+.review:hover{
+    transform: scale(1.04);
+}
+.customer-member{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid aquamarine;
+}
+.rating{
+    display: flex; 
+    gap: 5px;
+}
+.star{
+    color: rgb(199, 171, 13);
+    font-size: 20px;
+}
+
+#review-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#customer-member1{
+    background-image: url("im1.jpg");
+    background-size: cover;
+
+}
+
+#customer-member2{
+    background-image: url("im2.jpg");
+    background-size: cover;
+
+}
+#customer-member3{
+    background-image: url("im3.jpg");
+    background-size: cover;
+
+}
+.review-content{
+    margin:12px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* footer */
+.All-icons{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-indent: 30px;
+    font-size:1.9rem ;
+    margin-top: 60px;
+}
+.social-media:hover{
+    transform: scale(1.1) translateY(-6px);
+}
+#copyright{
+    font-size: 1rem;
+    margin-top: 1px;
+    text-align: center;
+}
+
+/* #responsive website for mobile */
+@media screen and (max-width:480px){
+#navbar{
+    flex-direction: column;
+    text-align: center;
+}
+#nav-second{
+    flex-direction: column;
+    align-items: center;
+}
+.nav-second-anker{
+    margin: 5px 0;
+}
+#sign-up-heading{
+    margin: 20px 0px 8px 0px;
+}   
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+    }
+#middle-content{
+    height: 500px;
+    margin-top: 100px;
+    width: 100%;
+}
+#middle-content p{
+    font-size: 27px;
+    margin-top: 5px;
+       
+    }
+#middle-fit-image {
+    display: none; 
+} 
+#services{
+    flex-direction: column;
+    align-items: center;
+    }
+.box{
+    width: 100%;
+    margin: 10px;
+    }
+
+#choose-page {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+        }
+    
+#choose-img {
+    width: 100%;
+}
+    
+#choose-content {
+        width: 100%;
+        padding: 10px;
+}
+ #price-plans{
+        flex-direction: column;
+        align-items: center;
+}
+.price{
+    width: 100%;
+    margin: 10px 0;
+}
+#review-box{
+    flex-direction: column;
+    align-items: center;
+}
+.review{
+    width: 100%;
+    margin: 10px 0;
+}
+.All-icons{
+    font-size: 1.4rem;
+}
+ #copyright{
+    font-size: 0.8rem;
+}
+}
+   /* javascript */
+#Sign-up{
+    display: none;
+}
+#sign-up-form input,#sign-up-form button{
+    display: block;
+    margin-bottom: 15px;
+}
+#sign-up-heading{
+    color: aqua;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    
+  
+
+
+
+
